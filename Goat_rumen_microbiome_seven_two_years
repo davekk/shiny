@@ -1,0 +1,88 @@
+#!/bin/bash
+#SBATCH -J wget_dave_6
+#SBATCH -p batch
+#SBATCH --mail-user=D.Kaimenyi@cgiar.org
+#SBATCH -o ./wget_goat_china.%N.%j.out
+#SBATCH --mail-type=END,FAIL
+
+cd /home/dkiambi/Qiime2_limidb/raw_reads
+mkdir goat__china_micr
+cd ./goat__china_micr
+####Exploring the Goat Rumen Microbiome from Seven Days to Two Years
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/002/SRR1774152/SRR1774152.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/003/SRR1774153/SRR1774153.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/004/SRR1774154/SRR1774154.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/005/SRR1774155/SRR1774155.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/006/SRR1774156/SRR1774156.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/007/SRR1774157/SRR1774157.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/008/SRR1774158/SRR1774158.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/009/SRR1774159/SRR1774159.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/000/SRR1774160/SRR1774160.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/001/SRR1774161/SRR1774161.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/002/SRR1774162/SRR1774162.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/003/SRR1774163/SRR1774163.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/004/SRR1774164/SRR1774164.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/005/SRR1774165/SRR1774165.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/006/SRR1774166/SRR1774166.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/007/SRR1774167/SRR1774167.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/008/SRR1774168/SRR1774168.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/009/SRR1774169/SRR1774169.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/000/SRR1774170/SRR1774170.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/001/SRR1774171/SRR1774171.fastq.gz
+
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/002/SRR1774172/SRR1774172.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/003/SRR1774173/SRR1774173.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/004/SRR1774174/SRR1774174.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/005/SRR1774175/SRR1774175.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/006/SRR1774176/SRR1774176.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/007/SRR1774177/SRR1774177.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/008/SRR1774178/SRR1774178.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/009/SRR1774179/SRR1774179.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/000/SRR1774180/SRR1774180.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/001/SRR1774181/SRR1774181.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/002/SRR1774182/SRR1774182.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/003/SRR1774183/SRR1774183.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/004/SRR1774184/SRR1774184.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/005/SRR1774185/SRR1774185.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/006/SRR1774186/SRR1774186.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/007/SRR1774187/SRR1774187.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/008/SRR1774188/SRR1774188.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/009/SRR1774189/SRR1774189.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/000/SRR1774190/SRR1774190.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/001/SRR1774191/SRR1774191.fastq.gz
+
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/002/SRR1774192/SRR1774192.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/003/SRR1774193/SRR1774193.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/004/SRR1774194/SRR1774194.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/005/SRR1774195/SRR1774195.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/006/SRR1774196/SRR1774196.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/007/SRR1774197/SRR1774197.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/008/SRR1774198/SRR1774198.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR177/009/SRR1774199/SRR1774199.fastq.gz
